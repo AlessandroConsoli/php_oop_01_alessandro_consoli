@@ -22,7 +22,7 @@ class Company {
         if ($this->tot_employees > 0) {
             echo "L'ufficio $this->name con sede in $this->location ha ben $this->tot_employees dipendenti \n";
         }else {
-            echo "L'ufficio $this->name con sede in $this->location non ha dipendenti \n";
+            echo "L'ufficio $this->name con sede in $this->location non ha dipendenti perchè ha chiuso \n";
         }
     }
 
